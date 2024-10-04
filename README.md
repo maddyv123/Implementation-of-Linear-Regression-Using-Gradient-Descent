@@ -8,15 +8,23 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. Start
-2. Initialize weights (theta) to zero. 
-3. Add Bias: Insert a column of ones for the bias term in the feature matrix.
-4. For each iteration, compute predictions using the current theta.
-5. Calculate the error as the difference between predictions and actual target values.
-6. Update theta using gradient descent to minimize the error.
-7. Repeat steps 3 to 5 for a specified number of iterations.
-8. Apply the trained model to new, scaled data to make predictions.
-9. End  
+step 1. Start the program
+
+step 2. Initialize weights (theta) to zero.
+
+step 3. Add Bias: Insert a column of ones for the bias term in the feature matrix.
+
+step 4. For each iteration, compute predictions using the current theta.
+
+step 5. Calculate the error as the difference between predictions and actual target values.
+
+step 6. Update theta using gradient descent to minimize the error.
+
+step 7. Repeat steps 3 to 5 for a specified number of iterations.
+
+step 8. Apply the trained model to new, scaled data to make predictions.
+
+step 9. stop the program
 
 ## Program:
 ```
